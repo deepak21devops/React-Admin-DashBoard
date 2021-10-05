@@ -1,0 +1,44 @@
+.sidebar{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 50px);
+
+
+}
+
+.sidebar-wrapper{
+    
+}
+
+.sidebar-Menu{
+    
+}
+
+.sidebar-title{
+    color: rgba(163, 163, 142, 0.808);
+    font-size: 15px;
+    padding:10px 20px;
+}
+
+.sidebarlist{
+    list-style: none;
+}
+
+.sidebaritems{
+    display: flex;
+    padding:5px;
+    font-size: 15px;
+    
+    
+}
+
+.sidebaritems:active,.sidebaritems:hover{
+    background-color: rgb(226, 226, 188);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.icon{
+    margin-right: 5px;
+    font-size: 20px !important;
+}
