@@ -1,6 +1,7 @@
 import Sidebar from "./Components/sidebar/Sidebar";
 import { Topbar } from "./Components/topbar/Topbar";
 import './app.css'
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="others">Others</div>
+        <Home />
       </div>
     </div>
   );
