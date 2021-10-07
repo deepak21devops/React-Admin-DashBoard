@@ -13,6 +13,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import NewUser from "./pages/NewUser/NewUser";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
 
           <Route path="/user/:userId">
             <User />
+          </Route>
+
+          <Route path="/newUser">
+            <NewUser />
           </Route>
         </Switch>
 

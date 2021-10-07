@@ -1,0 +1,55 @@
+.newUserContainer{
+    flex:4;
+}
+
+.UserContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.userItem{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.userItem>label{
+    margin-bottom: 10px;
+    color:rgb(143, 138, 138);
+}
+
+.userItem>input{
+    height:40px;
+    padding:0 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.radioContainer>label{
+margin-right: 10px;
+}
+
+.radioContainer>input{
+    margin-right: 10px;
+}
+
+.userSelect{
+    height:40px;
+
+}
+
+.createbtn{
+    background-color: darkblue;
+    font-weight: bold;
+    padding:10px 15px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

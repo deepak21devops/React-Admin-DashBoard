@@ -1,13 +1,17 @@
 import React from 'react'
 import './user.css'
 import { PersonOutline, CalendarToday, PhoneAndroid, MailOutline, LocationSearching, Publish } from '@material-ui/icons'
+import { Link } from 'react-router-dom'
 
 export default function User() {
     return (
         <div className="userSingle">
             <div className="userContainer">
                 <span className="lefttitle">Edit User</span>
-                <button className="createbtn">Create</button>
+                <Link to="/newUser">
+                    <button className="createbtn">Create</button>
+                </Link>
+
             </div>
             <div className="mainContainer">
                 <div className="leftContainer">
