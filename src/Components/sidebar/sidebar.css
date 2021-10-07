@@ -2,6 +2,8 @@
     flex: 1;
     background-color: rgb(255, 255, 255);
     height: calc(100vh - 50px);
+    position: sticky;
+    top:50px;
 
 
 }

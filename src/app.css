@@ -1,10 +1,13 @@
 .container{
     display: flex;
-    
-    
 }
 
 
 .home{
     flex: 4;
+}
+
+.widgets{
+    display: flex;
+    
 }
