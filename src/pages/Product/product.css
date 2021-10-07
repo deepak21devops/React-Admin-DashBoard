@@ -1,0 +1,137 @@
+.singleproduct{
+    flex:4;
+    padding:20px;
+    margin: 20px;
+}
+
+.productContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productHeader{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.createbtn{
+    background-color: teal;
+    font-weight: bold;
+    color:white;
+    width: 100px;
+}
+
+.perform{
+    margin-bottom: 25px;
+}
+
+
+.salesContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.salesLeftContainer,.salesRightContainer{
+    flex:1;
+    box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+border-radius: 10px;
+}
+
+.salesLeftContainer{
+    margin-right: 20px;
+    padding:20px;
+
+}
+
+.salesRightContainer{
+    padding:20px;
+}
+
+.productDesc{
+    display: flex;
+    align-items: center;
+}
+.prodimg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.productSpe{
+    margin-top: 20px;
+    width: 30%;
+}
+
+.productid,.productsales,.productactive,.productstock{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.prodTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.productUpdate{
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.updProd{
+    display: flex;
+    flex-direction: column;
+}
+
+.updProd>label{
+    margin-bottom: 10px;
+}
+
+.updProd>input{
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 1px solid black;
+    padding:2px;
+}
+
+.activeselect{
+    margin-top: 10px;
+}
+
+.productRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uploadIcon{
+    cursor:pointer
+}
+
+.uploadimg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.uploadContainer{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.updatebtn{
+    background-color: darkblue;
+    font-weight: bold;
+    width: 150px;
+    
+}

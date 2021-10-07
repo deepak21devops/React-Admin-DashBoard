@@ -5,6 +5,7 @@ import {
     Equalizer, MailOutline, ChatBubbleOutline, Feedback, WorkOutline, ReportGmailerrorred
 } from '@material-ui/icons'
 import './sidebar.css'
+import { Link } from 'react-router-dom'
 
 export default function Sidebar() {
     return (
@@ -39,10 +40,13 @@ export default function Sidebar() {
                             <PersonOutline className="icon" />
                             <span>Users</span>
                         </li>
-                        <li className="sidebaritems">
-                            <WorkOutline className="icon" />
-                            <span>Products</span>
-                        </li>
+                        <Link className="link" to="/productslist">
+                            <li className="sidebaritems">
+                                <WorkOutline className="icon" />
+                                <span>Products</span>
+                            </li>
+                        </Link>
+
                         <li className="sidebaritems">
                             <AttachMoney className="icon" />
                             <span>Transactions</span>

@@ -14,6 +14,9 @@ import {
   Link
 } from "react-router-dom";
 import NewUser from "./pages/NewUser/NewUser";
+import ProductsList from "./pages/ProductsList/ProductsList";
+import Product from "./pages/Product/Product";
+import NewProduct from "./pages/NewProduct/NewProduct";
 
 function App() {
   return (
@@ -37,6 +40,20 @@ function App() {
           <Route path="/newUser">
             <NewUser />
           </Route>
+
+          <Route path="/productslist" exact>
+            <ProductsList />
+          </Route>
+
+          <Route path="/product/:userId">
+            <Product />
+          </Route>
+
+          <Route path="/newproduct">
+            <NewProduct />
+          </Route>
+
+
         </Switch>
 
       </div>
