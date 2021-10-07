@@ -4,16 +4,32 @@ import './app.css'
 import Home from "./pages/Home/Home";
 import WidgetSM from "./Components/WidgetSM/WidgetSM";
 import WidgetLG from "./Components/WidgetLG/WidgetLG";
+import UserList from './pages/UserList/UserList.jsx'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Topbar />
       <div className="container">
         <Sidebar />
-        <Home />
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+
+          <Route path="/users">
+            <UserList />
+          </Route>
+        </Switch>
+
       </div>
-    </div>
+    </Router>
   );
 }
 

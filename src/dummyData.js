@@ -48,3 +48,15 @@ export const Userdata = [
         amt: 2600,
     },
 ];
+
+export const UserRows = [
+    { id: 1, user: ' Jon Snow', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 2, user: 'Cersei Lannister', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 3, user: ' Jaime Lannister', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 4, user: 'Arya Stark', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 5, user: ' Daenerys Targaryen', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 6, user: 'Witch Melisandre', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 7, user: 'Ferrara Clifford', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 8, user: 'Rossini Frances', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+    { id: 9, user: 'Harvey Roxie', avatar: "https://www.biography.com/.image/t_share/MTgyNzI5MTA4MTkzNTUxNzc5/gettyimages-1205209881.jpg", email: 'JohnSnow@gmail.com', status: 'Active', transaction: '$1200' },
+];
