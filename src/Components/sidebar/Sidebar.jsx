@@ -1,8 +1,8 @@
 import React from 'react'
 import {
     LineStyle, Timeline, TrendingUp
-    , PersonOutline, ProductionQuantityLimits, AttachMoney,
-    Equalizer, MailOutline, ChatBubbleOutline, Feedback, WorkOutline, ReportGmailerrorred
+    , PersonOutline, AttachMoney,
+    Equalizer, MailOutline, ChatBubbleOutline, Feedback, WorkOutline,
 } from '@material-ui/icons'
 import './sidebar.css'
 import { Link } from 'react-router-dom'
@@ -14,10 +14,13 @@ export default function Sidebar() {
                 <div className="sidebar-Menu">
                     <h3 className="sidebar-title">DashBoard</h3>
                     <ul className="sidebarlist">
-                        <li className="sidebaritems">
-                            <LineStyle className="icon" />
-                            <span>Home</span>
-                        </li>
+                        <Link className="link" to="/">
+                            <li className="sidebaritems">
+                                <LineStyle className="icon" />
+                                <span>Home</span>
+                            </li>
+                        </Link>
+
                         <li className="sidebaritems">
                             <Timeline className="icon" />
                             <span>Analytics</span>
@@ -36,10 +39,14 @@ export default function Sidebar() {
                 <div className="sidebar-Menu">
                     <h3 className="sidebar-title">Quick Menu</h3>
                     <ul className="sidebarlist">
-                        <li className="sidebaritems">
-                            <PersonOutline className="icon" />
-                            <span>Users</span>
-                        </li>
+                        <Link className="link" to="/users">
+                            <li className="sidebaritems">
+                                <PersonOutline className="icon" />
+                                <span>Users</span>
+                            </li>
+
+                        </Link>
+
                         <Link className="link" to="/productslist">
                             <li className="sidebaritems">
                                 <WorkOutline className="icon" />
