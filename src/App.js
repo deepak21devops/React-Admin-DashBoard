@@ -5,6 +5,8 @@ import Home from "./pages/Home/Home";
 import WidgetSM from "./Components/WidgetSM/WidgetSM";
 import WidgetLG from "./Components/WidgetLG/WidgetLG";
 import UserList from './pages/UserList/UserList.jsx'
+import User from './pages/User/User.jsx'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,6 +27,10 @@ function App() {
 
           <Route path="/users">
             <UserList />
+          </Route>
+
+          <Route path="/user/:userId">
+            <User />
           </Route>
         </Switch>
 

@@ -20,8 +20,11 @@ export default function WidgetLG() {
                 </tr>
                 <tr className="data">
                     <td className="profileContainer">
-                        <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
-                        <span className="profileName">Robert pattinson</span>
+                        <div className="content">
+                            <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
+                            <span className="profileName">Robert pattinson</span>
+                        </div>
+
                     </td>
                     <td className="dateCol">2 Jun 2021</td>
                     <td className="priceCol">$122.00</td>
@@ -32,8 +35,11 @@ export default function WidgetLG() {
 
                 <tr className="data">
                     <td className="profileContainer">
-                        <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
-                        <span className="profileName">Robert pattinson</span>
+                        <div className="content">
+                            <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
+                            <span className="profileName">Robert pattinson</span>
+                        </div>
+
                     </td>
                     <td className="dateCol">2 Jun 2021</td>
                     <td className="priceCol">$122.00</td>
@@ -44,8 +50,11 @@ export default function WidgetLG() {
 
                 <tr className="data">
                     <td className="profileContainer">
-                        <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
-                        <span className="profileName">Robert pattinson</span>
+                        <div className="content">
+                            <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
+                            <span className="profileName">Robert pattinson</span>
+                        </div>
+
                     </td>
                     <td className="dateCol">2 Jun 2021</td>
                     <td className="priceCol">$122.00</td>
@@ -56,8 +65,26 @@ export default function WidgetLG() {
 
                 <tr className="data">
                     <td className="profileContainer">
-                        <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
-                        <span className="profileName">Robert pattinson</span>
+                        <div className="content">
+                            <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
+                            <span className="profileName">Robert pattinson</span>
+                        </div>
+
+                    </td>
+                    <td className="dateCol">2 Jun 2021</td>
+                    <td className="priceCol">$122.00</td>
+                    <td>
+                        <Button type="Pending"></Button>
+                    </td>
+                </tr>
+
+                <tr className="data">
+                    <td className="profileContainer">
+                        <div className="content">
+                            <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
+                            <span className="profileName">Robert pattinson</span>
+                        </div>
+
                     </td>
                     <td className="dateCol">2 Jun 2021</td>
                     <td className="priceCol">$122.00</td>
@@ -66,17 +93,7 @@ export default function WidgetLG() {
                     </td>
                 </tr>
 
-                <tr className="data">
-                    <td className="profileContainer">
-                        <img className="profileimg" src="https://cdn.totallythebomb.com/wp-content/uploads/2020/02/Depositphotos_268207010_l-2015-465x700.jpg.webp" alt='profile'></img>
-                        <span className="profileName">Robert pattinson</span>
-                    </td>
-                    <td className="dateCol">2 Jun 2021</td>
-                    <td className="priceCol">$122.00</td>
-                    <td>
-                        <Button type="Rejected"></Button>
-                    </td>
-                </tr>
+
 
 
             </table>

@@ -7,7 +7,7 @@ export default function WidgetSM() {
 
     return (
         <div className="widgetsm">
-            <h3 className="title">New Joinee Members</h3>
+            <h3 className="lefttitle">New Joinee Members</h3>
             <div className="widgetwrapper">
                 <ul className="widgetList">
                     <li className="widgetItems">
